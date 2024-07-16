@@ -22,42 +22,6 @@
 // 
 ////////////////////////////////////////////////////////////////////////////////
 
-/*
-module CLA_tb;
-
-	// Inputs
-	reg [3:0] A;
-	reg [3:0] B;
-	reg Cin;
-
-	// Outputs
-	wire [3:0] S;
-	wire Cout;
-
-	// Instantiate the Unit Under Test (UUT)
-	Carry_lookahead_adder uut (
-		.A(A), 
-		.B(B), 
-		.Cin(Cin), 
-		.S(S), 
-		.Cout(Cout)
-	);
-
-	initial begin
-		// Initialize Inputs
-		A = 0;
-		B = 0;
-		Cin = 0;
-
-		// Wait 100 ns for global reset to finish
-		#100;
-        
-		// Add stimulus here
-
-	end
-      
-endmodule */
-
 module CLA_tb;
   reg [3:0]A, B; 
   reg Cin;
